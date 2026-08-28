@@ -2,7 +2,7 @@ import csv
 
 print("----Ejericio #4----")
 
-game_file = "videojuegos.csv"
+game_file = "../videojuegos.csv"
 
 
 def read_file():

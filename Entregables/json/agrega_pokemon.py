@@ -65,7 +65,7 @@ def save_json(data, filepath):
 
 
 def main():
-    filepath = "pokemon.json"
+    filepath = "../pokemon.json"
     data = read_json(filepath)
     add_pokemon(data)
     save_json(data, filepath)

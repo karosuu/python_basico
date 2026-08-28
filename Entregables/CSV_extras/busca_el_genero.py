@@ -1,6 +1,6 @@
 import csv
 
-game_file = "videojuegos.csv"
+game_file = "../videojuegos.csv"
 
 
 print("----Ejericio #3----")

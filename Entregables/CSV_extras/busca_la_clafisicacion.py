@@ -1,5 +1,5 @@
 import csv
-game_file = "videojuegos.csv"
+game_file = "../videojuegos.csv"
 
 #este es elejercicio 1
 print("----Ejericio #2----")
