@@ -20,7 +20,7 @@ def pokemon_type(data):
 
 
 def main():
-    filepath = "pokemon.json"
+    filepath = "../pokemon.json"
     data = read_json(filepath)
     poke_type = pokemon_type(data)
 

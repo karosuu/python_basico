@@ -19,7 +19,7 @@ def pokemon_stats(data):
 
 def main():
     print("\nMuestra las estadisticas de los pokemon en el archivo json: ")
-    filepath = "pokemon.json"
+    filepath = "../pokemon.json"
     stats_search = read_json(filepath)
     pokemon_stats(stats_search)
 

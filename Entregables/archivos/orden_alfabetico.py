@@ -19,5 +19,5 @@ def write_new_songs(path, songs):
             file.write(song)
 
 
-ordered_songs = songs_in_alphabetic_order('canciones.txt')
+ordered_songs = songs_in_alphabetic_order('../canciones.txt')
 write_new_songs("canciones ordenada.txt", ordered_songs)

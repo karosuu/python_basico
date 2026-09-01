@@ -24,7 +24,7 @@ def print_pokemon_info(data):
 
 
 def main():
-    filepath = "pokemon.json"
+    filepath = "../pokemon.json"
     data = read_json(filepath)
     print_pokemon_info(data)
 

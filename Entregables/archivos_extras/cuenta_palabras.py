@@ -19,7 +19,7 @@ def counting_words(path):
 
 folder = Path(__file__).parent
 
-input_file = folder / "palabras.txt"
+input_file = folder / "../palabras.txt"
 
 words_total = counting_words(input_file)
 print(f"Este archivo contiene {words_total} palabras\n")

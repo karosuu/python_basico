@@ -21,7 +21,7 @@ def pokemon_type(data, search_pokemon_type):
 
 
 def main():
-    filepath = "pokemon.json"
+    filepath = "../pokemon.json"
     search_pokemon_type = input("\nIngrese el typo de pokemon a buscar: ").upper()
     type_search = read_json(filepath)
     pokemon_type(type_search, search_pokemon_type)
